@@ -1,0 +1,74 @@
+DROP TABLE Books;
+CREATE TABLE Books
+     ( id  NUMBER(4) NOT NULL, 
+       Title VARCHAR2(50) ,
+      Auther VARCHAR2(50),
+       category VARCHAR2(50),
+       Publishyear VARCHAR2(50), 
+       	Price VARCHAR2(50) ,
+       Primary key (id) 
+     ); 
+
+INSERT INTO Books VALUES (1,'Bouquets','Flamenco', ' Mixed Flower ', 'Wrap', '85');
+INSERT INTO Books VALUES (2,'Arrangements','Blush', 'Mixed In Container', 'box', '70');
+INSERT INTO Books VALUES (3,'Boxes','Hope', 'Petite Box', 'box', '$77');
+INSERT INTO Books VALUES (4,'Baskets','Abundance', 'Lavish Mixed', 'basket', '120');
+INSERT INTO Books VALUES (5,'Hampers','Sweet Sensation', 'Candy Tower', 'box', '105');
+INSERT INTO Books VALUES (6,'Roses','Grand Seduction', '12  Red Roses', 'wrap', '200');
+INSERT INTO Books VALUES (7,'lilies','Allegra', 'Lilies And Roses ', 'Vase', '150');
+INSERT INTO Books VALUES (8,'Gerberas','Sweetness', 'Bouquet Of Mixed Blooms', '	Wrap', '130');
+INSERT INTO Books VALUES (9,'Tropical','Radiance', 'Large Designer', 'box', '155');
+INSERT INTO Books VALUES (10,'Orchids','La Luna', 'Bright Mixed', 'Wrap', '100');
+commit;
+============
+UPDATE books
+SET Price= '77'
+WHERE id = '3';
+
+
+CREATE TABLE register
+     ( id  NUMBER(4) NOT NULL, 
+      username VARCHAR2(50) ,
+      password VARCHAR2(50),
+      email VARCHAR2(50),
+     phoneno VARCHAR2(50), 
+     address VARCHAR2(50), 
+     suburb VARCHAR2(50), 
+   postcode VARCHAR2(50), 
+    firstname VARCHAR2(50), 
+     surname VARCHAR2(50),
+  Primary key (id) 
+     ); 
+
+insert into register (id,username,password,email,phoneno,address,suburb,postcode,firstname,surname)
+
+CREATE TABLE orderdetails
+     ( id  NUMBER(4) NOT NULL, 
+      customerid VARCHAR2(50) ,
+ firstname VARCHAR2(50),
+      surname VARCHAR2(50),
+      address VARCHAR2(50),
+    suburb  VARCHAR2(50),
+postcode VARCHAR2(50),
+email VARCHAR2(50),
+phoneno VARCHAR2(50),
+creditcardno VARCHAR2(50),
+holdername VARCHAR2(50),
+expiredate VARCHAR2(50),
+amount VARCHAR2(50),
+orderdate VARCHAR2(50),
+  Primary key (id) 
+     ); 
+
+(id,customerid,firstname,surname,address,suburb,postcode,email,phoneno,creditcardno,holdername
+,expiredate,amount,orderdate) 
+
+
+CREATE TABLE cart
+     ( orderid  NUMBER(4) NOT NULL, 
+      itemid VARCHAR2(50) ,
+      qty VARCHAR2(50),
+  Primary key (orderid)
+     );
+
+insert into cart(orderid,itemid,qty)

@@ -1,0 +1,53 @@
+==== register and login  form ===
+DROP TABLE regi;
+
+CREATE TABLE regi
+     ( ID  NUMBER(4) NOT NULL, 
+       Firstname VARCHAR2(20), 
+       Lastname VARCHAR2(20),
+      Username VARCHAR2(10),
+      Password VARCHAR2(10),
+       Address VARCHAR2(100),
+       Email VARCHAR2(20), 
+       Phone VARCHAR2(20),        
+       Primary key (ID) 
+     ); 
+
+==== shopping cart=====
+DROP TABLE flowers;
+
+CREATE TABLE flowers (
+id NUMBER(6) NOT NULL,
+title VARCHAR2(100) NOT NULL ,
+author  VARCHAR2(100) NOT NULL ,
+price DECIMAL(10,2) NOT NULL ,
+PRIMARY KEY (id)
+) ;
+
+-----
+
+---
+
+INSERT INTO flowers VALUES (1, 'Bouquets', 'Flamenco', '65.00');
+INSERT INTO flowers VALUES (2,'Arrangements','Blush','70.00');
+INSERT INTO flowers VALUES (3,'Boxes','Hope','77.00');
+INSERT INTO flowers VALUES (4,'Baskets','Abundance','120.00');
+INSERT INTO flowers VALUES (5,'Hampers','Sweet Sensation','105.00');
+INSERT INTO flowers VALUES (6,'Roses','Grand Seduction','180.00');
+INSERT INTO flowers VALUES (7,'lilies','Allegra','150');
+INSERT INTO flowers VALUES (8,'Gerberas','Sweetness','130');
+INSERT INTO flowers VALUES (9,'Tropical','Radiance','1500');
+INSERT INTO flowers VALUES (10,'Orchids','La Luna	','100.00');
+
+
+commit;
+
+---test---
+
+CREATE TABLE flowerorder (
+firstname VARCHAR2(100) ,
+lastname VARCHAR2(100),
+emailid VARCHAR2(100),
+title VARCHAR2(100)
+) ;
+INSERT INTO flowerorder  VALUES ('yousef','naif','L@l.com','book');

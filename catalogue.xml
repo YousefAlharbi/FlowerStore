@@ -1,0 +1,147 @@
+<?xml version = "1.0"?>
+
+
+<!--     
+        commented by Yousef ALharbi 20/08/2013
+		sit203 web programming assignment 1
+		Student Name : Yousef ALharbi
+		Student Id :212390239
+
+         Deakin University, School of Information Technology. 
+		 This web page has been developed as a student assignment for the unit SIT203:
+		 Web Programming. Therefore it is not part of the University's authorised web 
+		 site. DO NOT USE THE INFORMATION CONTAINED ON THIS WEB PAGE IN ANY WAY.      
+
+		 -->
+		 
+
+<?xml-stylesheet href = "catalogue.xsl" type = "text/xsl" version = "1.0"?>
+
+<CATALOG>
+   <FLOWERS>
+      <TYPE> Bouquets </TYPE>
+	  <NAME> Flamenco  </NAME>
+	  <DESCRIPTION> Mixed Flower Wrap  </DESCRIPTION>
+	  <PHOTO> images/364.jpg </PHOTO>
+	  <OCCASION> Birthday  </OCCASION>
+	  <PRICE>
+	     <STANDARD> $65 </STANDARD>
+		 <PREMIUM> $85  </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+    <FLOWERS>
+      <TYPE> Arrangements </TYPE>
+	  <NAME> Blush </NAME>
+	  <DESCRIPTION> Mixed Arrangements In a Ceramic Container </DESCRIPTION>
+	  <PHOTO> images/327.jpg </PHOTO>
+	  <OCCASION> Season Best </OCCASION>
+	  <PRICE>
+	     <STANDARD> $54 </STANDARD>
+		 <PREMIUM>  $70 </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+    <FLOWERS>
+      <TYPE> Boxes </TYPE>
+	  <NAME> Hope </NAME>
+	  <DESCRIPTION> Petite Box </DESCRIPTION>
+	  <PHOTO> images/341.jpg </PHOTO>
+	  <OCCASION> Get Well </OCCASION>
+	  <PRICE>
+	     <STANDARD> $62 </STANDARD>
+		 <PREMIUM>  $77 </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+   
+   <FLOWERS>
+      <TYPE> Baskets  </TYPE>
+	  <NAME> Abundance </NAME>
+	  <DESCRIPTION> Lavish Mixed  </DESCRIPTION>
+	  <PHOTO>images/358.jpg </PHOTO>
+	  <OCCASION> Thank You </OCCASION>
+	  <PRICE>
+	     <STANDARD> $100 </STANDARD>
+		 <PREMIUM>  $120 </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+   
+   <FLOWERS>
+      <TYPE> Hampers </TYPE>
+	  <NAME> Sweet Sensation </NAME>
+	  <DESCRIPTION> Candy Tower </DESCRIPTION>
+	  <PHOTO> images/100.jpg </PHOTO>
+	  <OCCASION> father-day </OCCASION>
+	  <PRICE>
+	     <STANDARD> $92 </STANDARD>
+		 <PREMIUM> $105  </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+   
+   <FLOWERS>
+      <TYPE> Roses </TYPE>
+	  <NAME> Grand Seduction </NAME>
+	  <DESCRIPTION> 12 Long Stemmed Red Roses </DESCRIPTION>
+	  <PHOTO> images/208.jpg  </PHOTO>
+	  <OCCASION> Romance </OCCASION>
+	  <PRICE>
+	     <STANDARD> $180 </STANDARD>
+		 <PREMIUM> $200  </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+   
+   <FLOWERS>
+      <TYPE> lilies </TYPE>
+	  <NAME> Allegra </NAME>
+	  <DESCRIPTION> Lilies And Roses in a Vase </DESCRIPTION>
+	  <PHOTO> images/359.jpg </PHOTO>
+	  <OCCASION> Congratulations  </OCCASION>
+	  <PRICE>
+	     <STANDARD>$130  </STANDARD>
+		 <PREMIUM> $150  </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+   
+   <FLOWERS>
+      <TYPE> Gerberas </TYPE>
+	  <NAME> Sweetness </NAME>
+	  <DESCRIPTION> Bouquet Of Mixed Blooms </DESCRIPTION>
+	  <PHOTO> images/378.jpg </PHOTO>
+	  <OCCASION> Sympathy </OCCASION>
+	  <PRICE>
+	     <STANDARD> $110 </STANDARD>
+		 <PREMIUM> $130  </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+   <FLOWERS>
+      <TYPE> Tropical</TYPE>
+	  <NAME> Radiance </NAME>
+	  <DESCRIPTION> Large Designer  </DESCRIPTION>
+	  <PHOTO> images/319.jpg </PHOTO>
+	  <OCCASION> Funeral </OCCASION>
+	  <PRICE>
+	     <STANDARD> $135 </STANDARD>
+		 <PREMIUM>  $155 </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+   
+   <FLOWERS>
+      <TYPE> Orchids </TYPE>
+	  <NAME> La Luna </NAME>
+	  <DESCRIPTION> Bright Mixed </DESCRIPTION>
+	  <PHOTO> images/370.jpg  </PHOTO>
+	  <OCCASION> Just-Because </OCCASION>
+	  <PRICE>
+	     <STANDARD> $85 </STANDARD>
+		 <PREMIUM> $100  </PREMIUM>
+	  </PRICE>
+   </FLOWERS>
+   
+</CATALOG>   
+
+<!--    
+        commented by Yousef ALharbi 20/08/2013
+		references:
+		sit203  Exercise 03.01 Solution  ,lecture note www.deakin.edu.au
+		http://www.w3schools.com/xml/
+		http://www.interflora.com.au/
+
+		 -->
